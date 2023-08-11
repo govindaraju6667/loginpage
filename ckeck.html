@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let obj = [
+        { name: "govindbro", age: 25 },
+        { name: "jet", age: 21 },
+      ];
+
+      let name = "jet";
+      let password = 21;
+      let count = 1;
+      for (let i = 0; i < obj.length; i++) {
+        if (obj[i].name === name && obj[i].age === password) {
+          count++;
+        }
+        if (count === 2) {
+          console.log(true);
+        } else {      
+          console.log(false);
+        }
+      }
+    </script>
+  </body>
+</html>

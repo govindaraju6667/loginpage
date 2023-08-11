@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="login-page">
+      <div><img src="./login.png" width="400px" height="auto" /></div>
+
+      <div id="content">
+        <h1 id="head">Log In</h1>
+        <p id="para">Enter your email and password to login dashboard</p>
+
+        <label id="label">Email</label><br />
+        <input
+          type="email"
+          id="textuser"
+          placeholder="Enter your Email"
+        /><br />
+        <span id="validname">Please enter valid Email</span>
+        <label id="label">Password</label><br />
+
+        <input
+          type="text"
+          id="password"
+          placeholder="Enter your password"
+        /><br />
+        <p id="validpass">Please enter valid password</p>
+        <button id="sign-in">Sign In</button>
+        <p id="sign">
+          Dont,have an account? <span id="register">Register</span>
+        </p>
+      </div>
+    </div>
+
+    <div id="signup-page">
+      <h2>Create an account</h2>
+      <p>Sign up new account</p>
+      <label>Your Name</label>
+      <input type="text" id="newuser" placeholder="Enter your Name" />
+      <label>Email</label>
+      <input type="email" id="email" placeholder="you@email.com" />
+      <label>Password</label>
+      <button id="create-acc">Create Account</button>
+      <button id="sign-in">Sign in</button>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
